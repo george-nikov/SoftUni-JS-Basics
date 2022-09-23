@@ -1,0 +1,7 @@
+function upr2 (input) {
+    let radian = input[0];
+    let gradus = radian*180/Math.PI
+    console.log(gradus);
+
+}
+upr2(['3.1416']);

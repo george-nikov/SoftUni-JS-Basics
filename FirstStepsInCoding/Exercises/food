@@ -1,0 +1,17 @@
+function food (input){
+    let chicken = input[0];
+    let fish = input[1];
+    let veges = input[2];
+
+    let chickenSum = chicken * 10.35;
+    let fishSum = fish * 12.40;
+    let vegesSum = veges * 8.15;
+    let menusSum = chickenSum + fishSum + vegesSum;
+    let dessert = menusSum * 0.20;
+    let delivery = 2.50;
+    let totalSum = menusSum + dessert + delivery;
+
+    console.log(totalSum);
+}
+
+food(['2','4','3'])
